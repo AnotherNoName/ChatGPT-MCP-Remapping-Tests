@@ -6,7 +6,7 @@
  * "Put the previous code into a box" (Attempt 1)
  */
 
-´public void onWorldRender(RenderEvent event) {
+public void onWorldRender(RenderEvent event) {
     this.count += (long)((Integer)this.rainbowSpeed.getValue()).intValue();
     long start = this.count;
     if (Trajectories.mc.player == null || Trajectories.mc.world == null || Trajectories.mc.gameSettings.thirdPersonView != 0) {
